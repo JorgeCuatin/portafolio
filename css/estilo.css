@@ -70,7 +70,7 @@ padding: 20px;
 div#contenedor{
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(247, 213, 213);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -78,6 +78,7 @@ div#contenedor{
 div#contenedor nav ul{
     list-style: none;
     display: flex;
+    z-index:1;
 }
 
 div#contenedor nav ul li a{
@@ -88,6 +89,8 @@ div#contenedor nav ul li a{
     text-align: center;
     color: rgb(0, 0, 0);
     outline: 1px solid white;
+    background-color: rgb(253, 230, 230);
+
 
 }
 
@@ -149,15 +152,12 @@ h3 {
 }
 
 footer{
-    background-color: rgb(57, 141, 99);
+    background-color: rgb(38, 95, 67);
     width: 100%;
     height:50px;
     bottom: 0;
     position: fixed;
-    text-align: center;
-    color: teal;
-
-    
+    text-align: center;  
 }
 
 
