@@ -162,7 +162,7 @@ footer{
 
 
 .img2{
-    transform: translate(-350px,-600px);
+    transform: translate(-350px,-550px);
     height:100px;
 
 }
@@ -176,7 +176,7 @@ footer{
 }
 
 .logo2{
-    transform: translate(1250px,250px);
+    transform: translate(1250px,200px);
 }
 
 
