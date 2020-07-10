@@ -70,8 +70,10 @@ padding: 20px;
 div#contenedor{
     display: flex;
     flex-direction: column;
-    background-color: rgb(247, 213, 213);
+    background-color: rgb(128, 2, 2);
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+ 
 }
 
 /* Quita las viñetas o numeracion de la lista */
@@ -79,6 +81,7 @@ div#contenedor nav ul{
     list-style: none;
     display: flex;
     z-index:1;
+    height: 60px;
 }
 
 div#contenedor nav ul li a{
@@ -87,15 +90,16 @@ div#contenedor nav ul li a{
     display: inline-block;
     line-height: 80px;
     text-align: center;
-    color: rgb(0, 0, 0);
-    outline: 1px solid white;
-    background-color: rgb(253, 230, 230);
-
+    color: rgb(255, 255, 255);
+    outline: 1px solid rgb(146, 22, 22);
+    background-color: rgb(128, 2, 2);
+    height: 60px;
+    border-radius: 3px;
 
 }
 
 div#contenedor nav ul li:hover >a{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(167, 23, 23);
 
 }
 
