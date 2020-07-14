@@ -1,3 +1,342 @@
+  /* query movil */
+
+  @media screen and (max-width: 600px){
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    /* body{
+        background:url("../img/body.jpg");
+        background-repeat: no-repeat;
+    } */
+    body{
+        background:url("../img/portada2.jpg");
+        /* background-size: 90%; */
+        background-repeat: no-repeat;
+        background: position -500px;
+        
+    
+    }
+    header{
+        background-image: url("../img/header.jpg");
+        height: 10px;
+    
+    
+    }
+    @font-face{
+        font-family: sketch1;
+        src: url(../fonts/Questrian.otf);
+    }
+    
+    .inicio{
+        font-family: sketch1;
+        text-decoration: none;
+        font-size: 60px;
+        color: rgb(248, 248, 248);
+        text-justify: newspaper; 
+    
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .img1{
+        height: 40px;
+    
+    }
+    
+    p{
+        text-decoration: none;
+        color: rgb(255, 255, 255);  
+    }
+    
+    header{
+        display: flex;    
+        flex-direction: row; 
+        justify-content: space-between;
+        align-items:center;
+        font-size: 15px;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    .logo{
+        display: flex;    
+        flex-direction: row; 
+        justify-content: end;
+        align-items:center;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    main{
+    margin: 20px;
+    padding: 20px;
+    } 
+    
+    div#contenedor{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(128, 2, 2);
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 3px;
+     
+    }
+    
+    /* Quita las viñetas o numeracion de la lista */
+    div#contenedor nav ul{
+        list-style: none;
+        display: flex;
+        z-index:1;
+        height: 60px;
+    }
+    
+    div#contenedor nav ul li a{
+        text-decoration: none;
+        width: 100px;
+        display: inline-block;
+        line-height: 80px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        outline: 1px solid rgb(146, 22, 22);
+        background-color: rgb(128, 2, 2);
+        height: 60px;
+        border-radius: 3px;
+    
+    }
+    
+    div#contenedor nav ul li:hover >a{
+        background-color: rgb(167, 23, 23);
+    
+    }
+    
+    div#contenedor nav ul li ul {
+        position: absolute;
+        display: block;
+    
+    }
+    
+    div#contenedor nav ul li ul a {
+       height: 0;
+       display: block;
+       overflow: hidden; 
+    }
+    
+    div#contenedor nav ul li:hover ul li a{
+        height: 50px;
+    }
+    
+    
+    .texto1{
+        
+        position: absolute;
+        top: 200px;
+    }
+    
+    .texto2{
+        position: absolute;
+        top: 240px;
+    }
+    
+    .texto3{
+        position: absolute;
+        top: 300px;
+    }
+    
+    @font-face{
+        font-family: sketch2;
+        src: url(../fonts/CanvasBlack.otf);
+    } 
+    
+    h1 {
+        color: rgb(180, 155, 43);
+        font-size: 30px;
+        font-family: sketch2;
+     
+    }
+    
+    h2 {
+        color: rgb(180, 155, 43);
+        font-size: 30px;
+        font-family: sketch2;;
+     
+    }
+    
+    h3 {
+        color: rgb(180, 155, 43);
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+     
+    }
+    
+    footer{
+        background-color: rgb(38, 95, 67);
+        width: 100%;
+        height:50px;
+        bottom: 0;
+        position: fixed;
+        text-align: center;  
+    }
+    
+    .img3{
+        height:100px;
+        animation-name: rotacion;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    
+    }
+    
+    .logo2{
+        position: absolute; 
+        left: auto; 
+        right: 0; 
+        bottom: 10px;
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    
+    
+    @keyframes rotacion{
+        0%, 100% {
+            transform: rotate(50deg);
+            }
+            50% {
+            transform: rotate(-50deg);
+            }
+    }
+    
+    .contenedor2{
+        width: 600px;
+        height: 50px;
+        /* background-color: white; */
+        font-size: 40px;
+        line-height: 50px;
+        /* para centrar un texto */
+        position: absolute; 
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        overflow: hidden;
+        
+    }
+    @font-face{
+        font-family: sketch3;
+        src: url(../fonts/Florence.ttf);
+    } 
+    
+    .anim2 {
+        list-style: none;
+        padding: 10px;
+        animation: changeletter 10s infinite;
+        color: white;
+        font-size: 20px;
+        font-family: sketch3;
+    }
+    
+    @keyframes changeletter{
+    0%{ margin-top: 0;}
+    
+    20%{ margin-top: 0;}
+    25%{margin-top: -55px;}
+    
+    45%{margin-top: -55px;}
+    50%{margin-top: -105px;}
+    
+    70%{margin-top: -105px;}
+    75%{margin-top: -160px;}
+    
+    95%{margin-top: -160px;}
+    100%{margin-top: -0px;}
+    }
+    
+    /* ----------------ICOMOON------------------------------ */
+    @font-face {
+        font-family: 'icomoon';
+        src:  url('../fonts/icomoon.eot?yp4t34');
+        src:  url('../fonts/icomoon.eot?yp4t34#iefix') format('embedded-opentype'),
+          url('../fonts/icomoon.ttf?yp4t34') format('truetype'),
+          url('../fonts/icomoon.woff?yp4t34') format('woff'),
+          url('../fonts/icomoon.svg?yp4t34#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+      }
+      
+      [class^="icon-"], [class*=" icon-"] {
+        /* use !important to prevent issues with browser extensions that change fonts */
+        font-family: 'icomoon' !important;
+        speak: never;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+      
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      .icon-facebook:before {
+        content: "\e900";
+        color: #1877f2;
+      }
+      .icon-twitter:before {
+        content: "\e901";
+        color: #1da1f2;
+      }
+      .icon-instagram:before {
+        content: "\e902";
+        color: #e4405f;
+      }
+      .icon-whatsapp:before {
+        content: "\e903";
+        color: #25d366;
+      }
+      .icon-twitter1:before {
+        content: "\ea96";
+      }
+      
+      .icono1{
+          position: absolute;
+          top: 135px;
+          right: 50px;
+      }
+    
+      .icono2{
+        position: absolute;
+        top: 135px;
+        right: 80px;  
+      }
+    
+      .icono3{
+        position: absolute;
+        top: 135px;
+        right: 110px;  
+      }
+    
+      .icono4{
+        position: absolute;
+        top: 135px;
+        right: 140px;  
+      }
+    
+    
+}
+
+  /* query ptablet */
+
+  @media screen and (max-width: 600px) and (max-width:900px){
+    
+}
+
+/* query pc */
+
+@media screen and (min-width:900px){
+
 *{
     padding: 0px;
     margin: 0px;
@@ -319,3 +658,6 @@ footer{
     top: 135px;
     right: 140px;  
   }
+
+}
+
