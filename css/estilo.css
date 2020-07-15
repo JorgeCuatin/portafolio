@@ -81,6 +81,7 @@
                     
                     div#contenedor{
                         background-color: rgb(163, 28, 10);
+                        width: 91%;
                         
                     
                     }
@@ -88,6 +89,9 @@
                     /* Quita las viñetas o numeracion de la lista */
                     div#contenedor nav ul{
                         z-index:1;
+                        width: 80%;
+                        height: 100%;
+                        margin: 0;
 
                     }
                     
@@ -114,6 +118,8 @@
                     div#contenedor nav ul li ul {
                         position: absolute;
                         display: block;
+                        background-color: rgb(252, 57, 44);
+                        height: 38%;
                     
                     }
                     
