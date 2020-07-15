@@ -79,19 +79,22 @@
                     } 
 
                     
-                    div#contenedor{
+                    div#contenedor nav{
                         background-color: rgb(163, 28, 10);
-                        width: 91%;
+                        width: 80%;
+                        height: 50%;
+                        margin: 0;
+                        position: fixed;
                         
                     
                     }
                     
                     /* Quita las viñetas o numeracion de la lista */
                     div#contenedor nav ul{
-                        z-index:1;
-                        width: 80%;
+                        /* z-index:1;
+                        width: 91%;
                         height: 100%;
-                        margin: 0;
+                        margin: 0; */
 
                     }
                     
@@ -110,16 +113,14 @@
                     
                     }
                     
-                    div#contenedor nav ul li:hover >a{
-                        background-color: rgb(167, 23, 23);
+                    /* div#contenedor nav ul li:hover >a{
+                        
                     
                     }
                     
                     div#contenedor nav ul li ul {
                         position: absolute;
                         display: block;
-                        background-color: rgb(252, 57, 44);
-                        height: 38%;
                     
                     }
                     
@@ -132,7 +133,7 @@
                     div#contenedor nav ul li:hover ul li a{
                         height: 50px;
                     }
-                    
+                     */
 
                     .texto1{
                         
