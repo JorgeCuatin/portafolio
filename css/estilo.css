@@ -51,6 +51,12 @@
                         height: 20px;
                     
                     }
+
+                    .menu_movil{
+                        height: 25px;
+                        width: 25px;
+                        
+                    }
                     
                     p{
                         text-decoration: none;
@@ -74,35 +80,29 @@
 
                     
                     div#contenedor{
-                        display: flex;
-                        flex-direction: column;
-                        font-family: Arial, Helvetica, sans-serif;
-                        border-radius: 3px;
-                        margin: 0px;
-                        padding-top: 40px;
+                        background-color: rgb(163, 28, 10);
                         
                     
                     }
                     
                     /* Quita las viñetas o numeracion de la lista */
                     div#contenedor nav ul{
-                        list-style: none;
-                        display: flex;
                         z-index:1;
-                        height: 60px;
+
                     }
                     
-                    div#contenedor nav ul li a{
-                        text-decoration: none;
+                    div#contenedor nav ul li {
+                        display: block;
+                        float: none;
+                        /* text-decoration: none;
                         width: 100px;
-                        display: inline-block;
                         line-height: 80px;
                         text-align: center;
                         color: rgb(255, 255, 255);
                         outline: 1px solid rgb(146, 22, 22);
                         background-color: rgb(128, 2, 2);
                         height: 60px;
-                        border-radius: 3px;
+                        border-radius: 3px; */
                     
                     }
                     
@@ -369,6 +369,11 @@ a{
 .img1{
     height: 40px;
 
+}
+
+.menu_movil{
+    display: none;
+    
 }
 
 p{
