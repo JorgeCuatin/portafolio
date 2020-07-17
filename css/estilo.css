@@ -463,20 +463,20 @@ div#contenedor nav ul li:hover ul li a{
 }
 
 
+.cajatexto{
+    color:rgb(180, 155, 43);
+    top: 350px;
+ }
+
 .texto1{
     
-    position: absolute;
-    top: 250px;
+    font-size: 40px;
 }
 
 .texto2{
-    position: absolute;
+    
     top: 300px;
-}
-
-.texto3{
-    position: absolute;
-    top: 400px;
+    font-size: 25px;
 }
 
 @font-face{
