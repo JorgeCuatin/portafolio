@@ -13,9 +13,13 @@
                     body{
                         background:url("../img/portada2.jpg");
                         /* background-size: 90%; */
-                        background-repeat: no-repeat;
-                        background: position -500px;
                         
+                        background: position -500px;
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                        background-attachment: fixed;
+                        background-size: cover;
+                        background-color:rgb(153, 149, 149);
                     
                     }
 
@@ -349,7 +353,11 @@
 body{
     background:url("../img/portada1.jpg");
     background-size: 100%;
+    background-position: center center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:rgb(153, 149, 149);
     
 
 }
