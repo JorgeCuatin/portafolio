@@ -29,9 +29,9 @@
                         flex-direction:column; 
                         justify-content: space-between;
                         align-items:center;
-                        margin: 10px;
-                        padding: 10px;
-                        padding-top: 0px;
+                        margin: 5px;
+                    padding: 20px;
+                    padding-top: 0px;
 
                     }
                     
@@ -39,14 +39,12 @@
                         font-family: sketch1;
                         text-decoration: none;
                         font-size: 50px;
-                        color: rgb(248, 248, 248);
-                        text-justify: newspaper;
-                         
+                        padding-bottom: 0px; 
+                        margin-bottom: 0px;   
                     }
-                     
+
                     .img1{
                         height: 20px;
-                    
                     }
 
                     .menu_movil{
@@ -54,8 +52,17 @@
                         width: 25px;
                         
                     }
-                    
+                    @font-face{
+                        font-family: estilo1;
+                        src: url(../fonts/Vogue.ttf);
+                    }
+
                     p{
+                        font-family: estilo1;
+                        color: white;
+                    }
+                    
+                    .titulo{
                         text-decoration: none;
                         color: rgb(255, 255, 255);  
                     }
@@ -143,7 +150,6 @@
                     }
                     
                     .texto2{
-                        
                         top: 300px;
                         font-size: 15px;
                     }
@@ -381,7 +387,17 @@ a{
     
 }
 
+@font-face{
+    font-family: estilo1;
+    src: url(../fonts/Vogue.ttf);
+}
+
 p{
+    font-family: estilo1;
+    color: white;
+}
+
+.titulo{
     text-decoration: none;
     color: rgb(255, 255, 255);  
 }
